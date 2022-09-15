@@ -4,7 +4,7 @@
 
 <br>
 
-![JS-30 -GitHub](https://user-images.githubusercontent.com/108018406/190511849-a04775b5-741e-4a96-91dd-d381227a2af8.png)
+![JS-30 -GitHub](https://user-images.githubusercontent.com/108018406/190512666-bba2621b-a690-4844-bdaa-42b01b2f5fb8.png)
 
 <strong>[EN]</strong>
 <br>
