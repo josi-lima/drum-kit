@@ -1,4 +1,4 @@
-# Drum-kit
+# Drum-kit 🥁
 
 ⚡ <strong>[ HTML / CSS / JavaScript ]</strong> ---
 
