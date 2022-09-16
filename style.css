@@ -20,8 +20,8 @@ body {
   background-image: url('img-01.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: #010142;
   font-family: Oranienbaum, Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -35,13 +35,13 @@ main {
 /* Title */
 
 .title {
-  font: 6vmax Permanent Marker, Arial, Helvetica;
+  font: 6.2vmax Permanent Marker, Arial, Helvetica;
   text-transform: uppercase;
   text-align: center;
   color: var(--bg-color-yellow);
-  text-shadow: 0 0 10px #000, 0 0 10px #000;
+  text-shadow: 0 0 10px #000, 0 0 10px #000, 0 0 40px var(--bg-color-yellow);
   user-select: none;
-  margin: 3vmax auto 8vmax;
+  margin: 3vmax auto 8.5vmax;
 }
 
 /* Container with music-key buttons */
@@ -62,10 +62,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 7vmax;
-  height: 18vmin;
+  min-width: 7vmax;
+  max-height: 18vmin;
+  padding: 1.7rem;
   background-color: #0000009f;
   border: 3px solid #fff;
+  border-radius: .5rem;
   color: #fff;
   font-size: 4.5vmax;
   user-select: none;
@@ -76,6 +78,6 @@ main {
 .playing {
   transform: scale(1.15);
   border-color: var(--bg-color-yellow);
-  box-shadow: 0 0 50px var(--bg-color-yellow);
+  box-shadow: 0 0 100px var(--bg-color-yellow);
   color: #ff0000;
 }
