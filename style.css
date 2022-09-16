@@ -38,6 +38,8 @@ main {
   margin: 3.5vmax auto 8vmax;
 }
 
+/* Container with music-key buttons */
+
 .music-container {
   display: flex;
   align-items: center;
@@ -47,6 +49,8 @@ main {
   width: 80vw;
   height: 18vmin;
 }
+
+/* Music-keys */
 
 .key {
   display: flex;
