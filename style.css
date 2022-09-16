@@ -8,6 +8,8 @@
   box-sizing: border-box;
 }
 
+/* Background */
+
 body {
   background-image: url('img-01.jpg');
   background-size: cover;
@@ -20,12 +22,32 @@ body {
 
 main {
   display: flex;
+  justify-content: center;
 }
 
+/* Title */
+
 .title {
-  font: 5vmax Permanent Marker, Arial, Helvetica;
+  font: 5.5vmax Permanent Marker, Arial, Helvetica;
   text-transform: uppercase;
   text-align: center;
   color: #ffcc00;
+  text-shadow: 0 0 10px #000, 0 0 10px #000;
+  margin: 3.5vmax auto 8vmax;
 }
 
+.music-container {
+  background-color: #fff;
+  width: 70vmax;
+  height: 17vmin;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.key {
+  display: flex;
+  width: 70vmax;
+  height: 17vmin;
+  background-color: #000;
+}
