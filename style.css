@@ -8,6 +8,12 @@
   box-sizing: border-box;
 }
 
+/* Variables*/
+
+:root {
+  --bg-color-yellow: #ffcc00;
+}
+
 /* Background */
 
 body {
@@ -32,7 +38,7 @@ main {
   font: 6vmax Permanent Marker, Arial, Helvetica;
   text-transform: uppercase;
   text-align: center;
-  color: #ffcc00;
+  color: var(--bg-color-yellow);
   text-shadow: 0 0 10px #000, 0 0 10px #000;
   user-select: none;
   margin: 3vmax auto 8vmax;
@@ -64,9 +70,12 @@ main {
   font-size: 4.5vmax;
   user-select: none;
   cursor: pointer;
-  transition: all .2s;
+  transition: transform .4s;
 }
 
-.key:hover {
+.key:active {
   transform: scale(1.25);
+  border-color: var(--bg-color-yellow);
+  box-shadow: 0 0 50px var(--bg-color-yellow);
+  color: #b1b2ff;
 }

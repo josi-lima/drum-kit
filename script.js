@@ -1,11 +1,11 @@
 // Object with music sounds
 
 const sounds = {
-  'A': 'sound_boom.wav',
+  'A': 'sound_openhat.wav',
   'S': 'sound_clap.wav',
   'D': 'sound_hihat.wav',
   'F': 'sound_kick.wav',
-  'G': 'sound_openhat.wav',
+  'G': 'sound_boom.wav',
   'H': 'sound_ride.wav',
   'J': 'sound_snare.wav',
   'K': 'sound_kalimba.wav',
@@ -31,7 +31,11 @@ display(sounds);
 
 const playSounds = (letter) => {
   const audio = new Audio(`./sounds/${sounds[letter]}`);
-  audio.play();
+  const validLetter = sounds.hasOwnProperty(letter);
+
+  if (validLetter) {
+    audio.play();
+  }
 }
 
 // function to activate the music-key buttons
