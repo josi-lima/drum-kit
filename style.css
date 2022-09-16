@@ -60,5 +60,5 @@ main {
   font-size: 4.5vmax;
   user-select: none;
   cursor: pointer;
-  
+  transition: all .3s;
 }
