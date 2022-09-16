@@ -18,6 +18,7 @@ body {
   height: 100%;
   background-color: #010142;
   font-family: Oranienbaum, Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 main {
@@ -33,21 +34,31 @@ main {
   text-align: center;
   color: #ffcc00;
   text-shadow: 0 0 10px #000, 0 0 10px #000;
+  user-select: none;
   margin: 3.5vmax auto 8vmax;
 }
 
 .music-container {
-  background-color: #fff;
-  width: 70vmax;
-  height: 17vmin;
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2vmax;
+  width: 80vw;
+  height: 18vmin;
 }
 
 .key {
   display: flex;
-  width: 70vmax;
-  height: 17vmin;
-  background-color: #000;
+  align-items: center;
+  justify-content: center;
+  width: 7vmax;
+  height: 18vmin;
+  background-color: #000000bb;
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 4.5vmax;
+  user-select: none;
+  cursor: pointer;
+  
 }
