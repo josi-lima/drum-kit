@@ -25,27 +25,50 @@ const createDiv = (text) => {
 // function to put sounds inside the music-key buttons
 
 const display = (sounds) => Object.keys(sounds).forEach(createDiv);
+
 display(sounds);
+
+// function to activate the music-key buttons
+
+const activateDiv = (e) => {
+  
+  let letter = '';
+  if (e.type == 'click') {
+    letter = e.target.id;
+  } else {
+    letter = e.key.toUpperCase();
+  }
+  // const letter = evento.type == 'click' ? evento.target.id : evento.key.toUpperCase();
+  playSounds(letter);
+}
+
+// function to add animation effects to the music-key buttons
+
+const addEffects = (letter) => {
+  document.getElementById(letter).classList.toggle('playing');
+}
+
+// function to remove animation effects to the music-key buttons
+
+const removeEffects = (letter) => {
+  const effect = document.getElementById(letter);
+  const removePlaying = () => effect.classList.remove('playing');
+  effect.addEventListener('transitionend', removePlaying);
+}
 
 // function to play sounds
 
 const playSounds = (letter) => {
   const audio = new Audio(`./sounds/${sounds[letter]}`);
+  
   const validLetter = sounds.hasOwnProperty(letter);
-
   if (validLetter) {
+    addEffects(letter);
     audio.play();
+    removeEffects(letter)
   }
 }
 
-// function to activate the music-key buttons
+window.addEventListener('keydown', activateDiv);
 
-const activateDiv = (e) => {
-  const letter = e.target.id;
-  playSounds(letter);
-}
-
-document.getElementById('container');
-document.addEventListener('click', activateDiv); 
-
-
+document.getElementById('container').addEventListener('click', activateDiv); 

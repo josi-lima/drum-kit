@@ -70,12 +70,12 @@ main {
   font-size: 4.5vmax;
   user-select: none;
   cursor: pointer;
-  transition: transform .4s;
+  transition: transform .09s;
 }
 
-.key:active {
-  transform: scale(1.25);
+.playing {
+  transform: scale(1.15);
   border-color: var(--bg-color-yellow);
   box-shadow: 0 0 50px var(--bg-color-yellow);
-  color: #b1b2ff;
+  color: #ff0000;
 }
