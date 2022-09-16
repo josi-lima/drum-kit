@@ -29,7 +29,7 @@ main {
 /* Title */
 
 .title {
-  font: 5.5vmax Permanent Marker, Arial, Helvetica;
+  font: 5.7vmax Permanent Marker, Arial, Helvetica;
   text-transform: uppercase;
   text-align: center;
   color: #ffcc00;
@@ -54,7 +54,7 @@ main {
   justify-content: center;
   width: 7vmax;
   height: 18vmin;
-  background-color: #000000bb;
+  background-color: #000000b0;
   border: 3px solid #fff;
   color: #fff;
   font-size: 4.5vmax;
