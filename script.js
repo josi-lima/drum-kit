@@ -22,3 +22,15 @@ const createDiv = (text) => {
   document.getElementById('container').appendChild(div);
 }
 
+// function to put sounds inside the music-key buttons
+
+const display = (sounds) => Object.keys(sounds).forEach(createDiv);
+
+display(sounds);
+
+// function to activate the music-key buttons
+
+document.getElementById('container');
+document.addEventListener('click', activateDiv); // document or container
+
+

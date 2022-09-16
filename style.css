@@ -29,13 +29,13 @@ main {
 /* Title */
 
 .title {
-  font: 5.7vmax Permanent Marker, Arial, Helvetica;
+  font: 6vmax Permanent Marker, Arial, Helvetica;
   text-transform: uppercase;
   text-align: center;
   color: #ffcc00;
   text-shadow: 0 0 10px #000, 0 0 10px #000;
   user-select: none;
-  margin: 3.5vmax auto 8vmax;
+  margin: 3vmax auto 8vmax;
 }
 
 /* Container with music-key buttons */
@@ -58,11 +58,15 @@ main {
   justify-content: center;
   width: 7vmax;
   height: 18vmin;
-  background-color: #000000b0;
+  background-color: #0000009f;
   border: 3px solid #fff;
   color: #fff;
   font-size: 4.5vmax;
   user-select: none;
   cursor: pointer;
-  transition: all .3s;
+  transition: all .2s;
+}
+
+.key:hover {
+  transform: scale(1.25);
 }
