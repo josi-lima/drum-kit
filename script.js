@@ -3,6 +3,6 @@ const createDiv = (text) => {
   div.classList.add('key');
   div.textContent = text;
   div.id = text;
-  document.getElementById('contaner').appendChild(div);
+  document.getElementById('container').appendChild(div);
 }
 
