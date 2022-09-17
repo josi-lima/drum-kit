@@ -1,6 +1,6 @@
 # Drum-kit 🥁
 
-⚡ <strong>[ HTML / CSS / JavaScript ]</strong> --- https://josi-lima.github.io/drum-kit/
+⚡ <strong>[ JavaScript / CSS / HTML ]</strong> --- https://josi-lima.github.io/drum-kit/
 
 <br>
 
