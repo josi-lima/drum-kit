@@ -72,7 +72,7 @@ main {
   font-size: 4.5vmax;
   user-select: none;
   cursor: pointer;
-  transition: transform 1.3s ease;
+  transition: transform .09s ease;
 }
 
 .playing {
