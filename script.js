@@ -48,7 +48,7 @@ const addEffects = (letter) => {
   document.getElementById(letter).classList.toggle('playing');
 }
 
-// function to remove animation effects to the music-key buttons
+// function to remove animation effects from the music-key buttons
 
 const removeEffects = (letter) => {
   const effect = document.getElementById(letter);
