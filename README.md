@@ -14,5 +14,9 @@ Page designed to be a set of drums as each key pressed or button clicked plays a
 <br>
 Página projetada para ser um conjunto de bateria, pois cada tecla pressionada ou botão clicado reproduz um som diferente. Este é o primeiro projeto de uma série baseada no desafio de programação _[#JavaScript30](https://javascript30.com/)_.
 
+<br>
+
+![Captura de tela 2023-08-08 171709](https://github.com/josi-lima/drum-kit/assets/108018406/23f1bda4-8a75-4480-8424-b9c5f3517cad)
+
 
 
